@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital@0;1&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Tiro Devanagari Marathi', serif;
+}
+a{
+  text-decoration: none;
+}
+.top-section{
+  background-image: url("images/top-banner.png");
+  height: 500px;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  padding-bottom: 40px;
+}
+.top-heading{
+  color: orange;
+}
+.half-top{
+  width: 40%;
+  float: left;
+  margin-left: 5%;
+  padding-left: 2%;
+  margin-top: 10px;
+}
+.half-top img{
+  width: 80%;
+  margin-left: 10%;
+}
+.half-top h1{
+  font-size: 50px;
+  font-weight: 400;
+}
+.half-top h3{
+  font-size: 20px;
+  font-weight: 700;
+}
+.half-top p{
+  color: #777;
+  text-align: justify;
+  margin-bottom: 35px;
+}
+.half-top a{
+  background: linear-gradient(cadetblue,green);
+  color: #fff;
+  padding: 10px 30px;
+  border-radius: 5px;
+  transition: all 0.3s;
+  margin-top: 50px;
+  transition: all 0.3s;
+  margin: 0;
+}
+.half-top a:hover{
+  
+  background: #222;
+  color: #fff;
+  
+}
+.dream-area h3{
+  font-size: 35px;
+}
+.dream-area h4{
+  font-size: 20px;
+  font-style: italic;
+}
+.dream-area img{
+  margin-left: 0;
+}
+.dream-area{
+  background-image: url("images/dream-bg.png");
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-position: right;
+  padding-bottom: 40px;
+}
+.skill-area{
+  height: 500px;
+  background-image: url("images/exp-bg.png");
+  background-repeat: no-repeat;
+  background-position: left;
+}
+.skill-area h2{
+  font-size: 40px;
+}
+.skill-area .half-top h3{
+  font-size: 35px;
+  line-height: 0;
+}
+.skill-area h4{
+  color: orange;
+}
+.single-skill{
+  box-shadow: 10px 10px 40px gray;
+  border-radius: 5px;
+  height: 250px;
+  background-color: #fff;
+  transition: all 0.3s;
+}
+.single-skill:hover{
+  box-shadow: 10px 20px 40px gray;
+}
+#full-stack{
+  border-left: 7px solid;
+  border-image:linear-gradient(90deg, cadetblue, blue);
+  background: linear-gradient();
+  border-image-slice: 1;
+}
+#baby-web{
+  border-left: 7px solid;
+  border-image: linear-gradient(lightsalmon, aqua);
+  border-image-slice: 1;
+}
+footer p{
+  text-align: center;
+  font-style: italic;
+  font-weight: 700;
+}
